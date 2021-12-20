@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A1</title>
+</head>
+
+<body>
+    <script>
+        function square(value) {
+            return value * value;
+        }
+
+        function double(value) {
+            return value * 2;
+        }
+
+        function composedValue(value) {
+            return square(double(value));
+        }
+
+        var myValue = window.prompt("Enter value : ");
+        document.write(composedValue(myValue));
+    </script>
+
+</body>
+
+</html>
