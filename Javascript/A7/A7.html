@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Currency Exchange</title>
+</head>
+
+<body>
+    <script>
+        var dollar = parseInt(prompt('Enter dollar amount'));
+        document.writeln(dollar, "$ doller is: <br>");
+        var rupee = dollar * 74.20;
+        var yen = dollar * 109.841;
+        var euro = dollar * 0.85;
+        var PoundSterling = dollar * 0.72;
+        var dinar = dollar * 247.43;
+        document.writeln(" INR = ", rupee, "<br>");
+        document.writeln(" Yen = ", Math.round(yen), "<br>");
+        document.writeln(" Pound = ", euro, "<br>");
+        document.writeln(" PoundSterling = ", PoundSterling, "<br>");
+        document.writeln(" dinar = ", Math.round(dinar), "<br>");
+    </script>
+</body>
+
+</html>
