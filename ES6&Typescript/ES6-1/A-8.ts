@@ -34,7 +34,7 @@ let totalBankBalance = (...accounts: (SavingAccount | CurrentAccount)[]) => {
 
 const account1 = new SavingAccount(
     151860002536,
-    "sai jaswanth",
+    "Nithin s",
     500000,
     2000
 );
